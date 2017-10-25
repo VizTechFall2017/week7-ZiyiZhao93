@@ -1,0 +1,14 @@
+.svgBox{
+    width: 100%;
+    height: 400px;
+
+
+}
+#svg2{
+    float: left;
+}
+img{
+    margin-top: -310px;
+    margin-left: 10px;
+    float: left;
+}
