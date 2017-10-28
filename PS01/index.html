@@ -4,7 +4,8 @@
     <title>Subway</title>
 
     <link rel="stylesheet" type="text/css" href="./libraries/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./newindex.css">
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans" rel="stylesheet">
 
     <!-- Bootstrap JS is a JS library with pre-made functionality. Requires jQuery and popper.js to run.
          JQuery is a very powerful, general-purpose library that can manipulate the DOM
@@ -18,34 +19,19 @@
 
 <body>
 
-
-    <div class="container">
-        <div class="row">
-            <div class="row">
-                <div class="col-md-6 svgBox">
-
-                    <svg width="100%" height="100%" id="svg1"></svg>
-
-                    <button type="button" onclick="buttonClicked()">Total</button>
-
-
-
-                </div>
-                <div class="col-md-6 svgBox">
-
-                    <svg width="100%" height="100%" id="svg2"></svg>
-
-
-
-
-                </div>
-            </div>
-        </div>
+    <p>What does People Normally Do on Orange Line in Boston</p>
+    <div class="col-md-6 svgBox">
+        <svg width="800px" height="400px" id="svg2"></svg>
     </div>
+    <div class="col-md-6 svgBox">
+        <svg width="800px" height="400px" id="svg1"></svg>
+        <input type="range" min="1987" max="2007" value="1" class="slider" id="mySlider" oninput="sliderMoved(value)">
+    </div>
+
 
 
 </body>
 
-<script src="./index.js"></script>
+<script src="./newindex.js"></script>
 
 </html>
